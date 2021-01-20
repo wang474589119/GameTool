@@ -30,67 +30,65 @@ namespace IslandTool
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.heroBox4 = new System.Windows.Forms.TextBox();
+            this.heroBox3 = new System.Windows.Forms.TextBox();
+            this.heroBox2 = new System.Windows.Forms.TextBox();
+            this.heroBox1 = new System.Windows.Forms.TextBox();
+            this.therionCheck0 = new System.Windows.Forms.CheckBox();
+            this.heroBox0 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.therionBox0 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.mbox0 = new System.Windows.Forms.TextBox();
-            this.mlable0 = new System.Windows.Forms.Label();
+            this.mlabel0 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.heroBox9 = new System.Windows.Forms.TextBox();
+            this.heroBox8 = new System.Windows.Forms.TextBox();
+            this.heroBox7 = new System.Windows.Forms.TextBox();
+            this.heroBox6 = new System.Windows.Forms.TextBox();
+            this.therionCheck1 = new System.Windows.Forms.CheckBox();
+            this.heroBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.therionBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.heroBox14 = new System.Windows.Forms.TextBox();
+            this.heroBox13 = new System.Windows.Forms.TextBox();
+            this.heroBox12 = new System.Windows.Forms.TextBox();
+            this.heroBox11 = new System.Windows.Forms.TextBox();
+            this.therionCheck2 = new System.Windows.Forms.CheckBox();
+            this.heroBox10 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.therionBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.heroBox17 = new System.Windows.Forms.TextBox();
+            this.heroBox16 = new System.Windows.Forms.TextBox();
+            this.therionCheck3 = new System.Windows.Forms.CheckBox();
+            this.heroBox15 = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.therionBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -101,19 +99,19 @@ namespace IslandTool
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.heroBox4);
+            this.groupBox1.Controls.Add(this.heroBox3);
+            this.groupBox1.Controls.Add(this.heroBox2);
+            this.groupBox1.Controls.Add(this.heroBox1);
+            this.groupBox1.Controls.Add(this.therionCheck0);
+            this.groupBox1.Controls.Add(this.heroBox0);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.therionBox0);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(402, 96);
@@ -121,63 +119,66 @@ namespace IslandTool
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "一队";
             // 
-            // textBox5
+            // heroBox4
             // 
-            this.textBox5.Location = new System.Drawing.Point(170, 57);
-            this.textBox5.MaxLength = 2;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(60, 21);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "0";
+            this.heroBox4.Location = new System.Drawing.Point(170, 57);
+            this.heroBox4.MaxLength = 2;
+            this.heroBox4.Name = "heroBox4";
+            this.heroBox4.Size = new System.Drawing.Size(60, 21);
+            this.heroBox4.TabIndex = 11;
+            this.heroBox4.Text = "0";
+            this.heroBox4.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // textBox4
+            // heroBox3
             // 
-            this.textBox4.Location = new System.Drawing.Point(53, 57);
-            this.textBox4.MaxLength = 2;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(60, 21);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "0";
+            this.heroBox3.Location = new System.Drawing.Point(53, 57);
+            this.heroBox3.MaxLength = 2;
+            this.heroBox3.Name = "heroBox3";
+            this.heroBox3.Size = new System.Drawing.Size(60, 21);
+            this.heroBox3.TabIndex = 10;
+            this.heroBox3.Text = "0";
+            this.heroBox3.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox3
+            // heroBox2
             // 
-            this.textBox3.Location = new System.Drawing.Point(289, 23);
-            this.textBox3.MaxLength = 2;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(60, 21);
-            this.textBox3.TabIndex = 9;
-            this.textBox3.Text = "0";
+            this.heroBox2.Location = new System.Drawing.Point(289, 23);
+            this.heroBox2.MaxLength = 2;
+            this.heroBox2.Name = "heroBox2";
+            this.heroBox2.Size = new System.Drawing.Size(60, 21);
+            this.heroBox2.TabIndex = 9;
+            this.heroBox2.Text = "0";
+            this.heroBox2.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox2
+            // heroBox1
             // 
-            this.textBox2.Location = new System.Drawing.Point(170, 23);
-            this.textBox2.MaxLength = 2;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(60, 21);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "0";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.heroBox1.Location = new System.Drawing.Point(170, 23);
+            this.heroBox1.MaxLength = 2;
+            this.heroBox1.Name = "heroBox1";
+            this.heroBox1.Size = new System.Drawing.Size(60, 21);
+            this.heroBox1.TabIndex = 8;
+            this.heroBox1.Text = "0";
+            this.heroBox1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // checkBox1
+            // therionCheck0
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(355, 62);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(36, 16);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "极";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.therionCheck0.AutoSize = true;
+            this.therionCheck0.Location = new System.Drawing.Point(355, 62);
+            this.therionCheck0.Name = "therionCheck0";
+            this.therionCheck0.Size = new System.Drawing.Size(36, 16);
+            this.therionCheck0.TabIndex = 1;
+            this.therionCheck0.Text = "极";
+            this.therionCheck0.UseVisualStyleBackColor = true;
+            this.therionCheck0.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // textBox1
+            // heroBox0
             // 
-            this.textBox1.Location = new System.Drawing.Point(53, 23);
-            this.textBox1.MaxLength = 2;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(60, 21);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "0";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.heroBox0.Location = new System.Drawing.Point(53, 23);
+            this.heroBox0.MaxLength = 2;
+            this.heroBox0.Name = "heroBox0";
+            this.heroBox0.Size = new System.Drawing.Size(60, 21);
+            this.heroBox0.TabIndex = 7;
+            this.heroBox0.Text = "0";
+            this.heroBox0.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label6
             // 
@@ -233,30 +234,42 @@ namespace IslandTool
             this.label1.TabIndex = 1;
             this.label1.Text = "圣兽";
             // 
-            // comboBox1
+            // therionBox0
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.therionBox0.FormattingEnabled = true;
+            this.therionBox0.Items.AddRange(new object[] {
             "青龙",
             "朱雀",
             "玄武",
             "白虎"});
-            this.comboBox1.Location = new System.Drawing.Point(289, 60);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(60, 20);
-            this.comboBox1.TabIndex = 0;
+            this.therionBox0.Location = new System.Drawing.Point(289, 60);
+            this.therionBox0.Name = "therionBox0";
+            this.therionBox0.Size = new System.Drawing.Size(60, 20);
+            this.therionBox0.TabIndex = 0;
+            this.therionBox0.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.mbox0);
-            this.groupBox2.Controls.Add(this.mlable0);
+            this.groupBox2.Controls.Add(this.mlabel0);
             this.groupBox2.Location = new System.Drawing.Point(12, 424);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(402, 257);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "兵装";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(31, 20);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(16, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "-";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -277,30 +290,30 @@ namespace IslandTool
             this.mbox0.TabIndex = 8;
             this.mbox0.Text = "0";
             // 
-            // mlable0
+            // mlabel0
             // 
-            this.mlable0.AutoSize = true;
-            this.mlable0.Location = new System.Drawing.Point(6, 46);
-            this.mlable0.Name = "mlable0";
-            this.mlable0.Size = new System.Drawing.Size(35, 12);
-            this.mlable0.TabIndex = 0;
-            this.mlable0.Text = "顺序1";
+            this.mlabel0.AutoSize = true;
+            this.mlabel0.Location = new System.Drawing.Point(6, 46);
+            this.mlabel0.Name = "mlabel0";
+            this.mlabel0.Size = new System.Drawing.Size(35, 12);
+            this.mlabel0.TabIndex = 0;
+            this.mlabel0.Text = "顺序1";
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.textBox9);
-            this.groupBox3.Controls.Add(this.checkBox2);
-            this.groupBox3.Controls.Add(this.textBox10);
+            this.groupBox3.Controls.Add(this.heroBox9);
+            this.groupBox3.Controls.Add(this.heroBox8);
+            this.groupBox3.Controls.Add(this.heroBox7);
+            this.groupBox3.Controls.Add(this.heroBox6);
+            this.groupBox3.Controls.Add(this.therionCheck1);
+            this.groupBox3.Controls.Add(this.heroBox5);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.comboBox2);
+            this.groupBox3.Controls.Add(this.therionBox1);
             this.groupBox3.Location = new System.Drawing.Point(12, 114);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(402, 96);
@@ -308,60 +321,61 @@ namespace IslandTool
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "二队";
             // 
-            // textBox6
+            // heroBox9
             // 
-            this.textBox6.Location = new System.Drawing.Point(170, 57);
-            this.textBox6.MaxLength = 2;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(60, 21);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.Text = "0";
+            this.heroBox9.Location = new System.Drawing.Point(170, 57);
+            this.heroBox9.MaxLength = 2;
+            this.heroBox9.Name = "heroBox9";
+            this.heroBox9.Size = new System.Drawing.Size(60, 21);
+            this.heroBox9.TabIndex = 11;
+            this.heroBox9.Text = "0";
             // 
-            // textBox7
+            // heroBox8
             // 
-            this.textBox7.Location = new System.Drawing.Point(53, 57);
-            this.textBox7.MaxLength = 2;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(60, 21);
-            this.textBox7.TabIndex = 10;
-            this.textBox7.Text = "0";
+            this.heroBox8.Location = new System.Drawing.Point(53, 57);
+            this.heroBox8.MaxLength = 2;
+            this.heroBox8.Name = "heroBox8";
+            this.heroBox8.Size = new System.Drawing.Size(60, 21);
+            this.heroBox8.TabIndex = 10;
+            this.heroBox8.Text = "0";
             // 
-            // textBox8
+            // heroBox7
             // 
-            this.textBox8.Location = new System.Drawing.Point(289, 23);
-            this.textBox8.MaxLength = 2;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(60, 21);
-            this.textBox8.TabIndex = 9;
-            this.textBox8.Text = "0";
+            this.heroBox7.Location = new System.Drawing.Point(289, 23);
+            this.heroBox7.MaxLength = 2;
+            this.heroBox7.Name = "heroBox7";
+            this.heroBox7.Size = new System.Drawing.Size(60, 21);
+            this.heroBox7.TabIndex = 9;
+            this.heroBox7.Text = "0";
             // 
-            // textBox9
+            // heroBox6
             // 
-            this.textBox9.Location = new System.Drawing.Point(170, 23);
-            this.textBox9.MaxLength = 2;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(60, 21);
-            this.textBox9.TabIndex = 8;
-            this.textBox9.Text = "0";
+            this.heroBox6.Location = new System.Drawing.Point(170, 23);
+            this.heroBox6.MaxLength = 2;
+            this.heroBox6.Name = "heroBox6";
+            this.heroBox6.Size = new System.Drawing.Size(60, 21);
+            this.heroBox6.TabIndex = 8;
+            this.heroBox6.Text = "0";
             // 
-            // checkBox2
+            // therionCheck1
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(355, 62);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(36, 16);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "极";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.therionCheck1.AutoSize = true;
+            this.therionCheck1.Location = new System.Drawing.Point(355, 62);
+            this.therionCheck1.Name = "therionCheck1";
+            this.therionCheck1.Size = new System.Drawing.Size(36, 16);
+            this.therionCheck1.TabIndex = 1;
+            this.therionCheck1.Text = "极";
+            this.therionCheck1.UseVisualStyleBackColor = true;
+            this.therionCheck1.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // textBox10
+            // heroBox5
             // 
-            this.textBox10.Location = new System.Drawing.Point(53, 23);
-            this.textBox10.MaxLength = 2;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(60, 21);
-            this.textBox10.TabIndex = 7;
-            this.textBox10.Text = "0";
+            this.heroBox5.Location = new System.Drawing.Point(53, 23);
+            this.heroBox5.MaxLength = 2;
+            this.heroBox5.Name = "heroBox5";
+            this.heroBox5.Size = new System.Drawing.Size(60, 21);
+            this.heroBox5.TabIndex = 7;
+            this.heroBox5.Text = "0";
             // 
             // label7
             // 
@@ -417,34 +431,35 @@ namespace IslandTool
             this.label12.TabIndex = 1;
             this.label12.Text = "圣兽";
             // 
-            // comboBox2
+            // therionBox1
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.therionBox1.FormattingEnabled = true;
+            this.therionBox1.Items.AddRange(new object[] {
             "青龙",
             "朱雀",
             "玄武",
             "白虎"});
-            this.comboBox2.Location = new System.Drawing.Point(289, 60);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(60, 20);
-            this.comboBox2.TabIndex = 0;
+            this.therionBox1.Location = new System.Drawing.Point(289, 60);
+            this.therionBox1.Name = "therionBox1";
+            this.therionBox1.Size = new System.Drawing.Size(60, 20);
+            this.therionBox1.TabIndex = 0;
+            this.therionBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.textBox11);
-            this.groupBox4.Controls.Add(this.textBox12);
-            this.groupBox4.Controls.Add(this.textBox13);
-            this.groupBox4.Controls.Add(this.textBox14);
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.textBox15);
+            this.groupBox4.Controls.Add(this.heroBox14);
+            this.groupBox4.Controls.Add(this.heroBox13);
+            this.groupBox4.Controls.Add(this.heroBox12);
+            this.groupBox4.Controls.Add(this.heroBox11);
+            this.groupBox4.Controls.Add(this.therionCheck2);
+            this.groupBox4.Controls.Add(this.heroBox10);
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.label15);
             this.groupBox4.Controls.Add(this.label16);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.comboBox3);
+            this.groupBox4.Controls.Add(this.therionBox2);
             this.groupBox4.Location = new System.Drawing.Point(12, 216);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(402, 96);
@@ -452,60 +467,61 @@ namespace IslandTool
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "三队";
             // 
-            // textBox11
+            // heroBox14
             // 
-            this.textBox11.Location = new System.Drawing.Point(170, 57);
-            this.textBox11.MaxLength = 2;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(60, 21);
-            this.textBox11.TabIndex = 11;
-            this.textBox11.Text = "0";
+            this.heroBox14.Location = new System.Drawing.Point(170, 57);
+            this.heroBox14.MaxLength = 2;
+            this.heroBox14.Name = "heroBox14";
+            this.heroBox14.Size = new System.Drawing.Size(60, 21);
+            this.heroBox14.TabIndex = 11;
+            this.heroBox14.Text = "0";
             // 
-            // textBox12
+            // heroBox13
             // 
-            this.textBox12.Location = new System.Drawing.Point(53, 57);
-            this.textBox12.MaxLength = 2;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(60, 21);
-            this.textBox12.TabIndex = 10;
-            this.textBox12.Text = "0";
+            this.heroBox13.Location = new System.Drawing.Point(53, 57);
+            this.heroBox13.MaxLength = 2;
+            this.heroBox13.Name = "heroBox13";
+            this.heroBox13.Size = new System.Drawing.Size(60, 21);
+            this.heroBox13.TabIndex = 10;
+            this.heroBox13.Text = "0";
             // 
-            // textBox13
+            // heroBox12
             // 
-            this.textBox13.Location = new System.Drawing.Point(289, 23);
-            this.textBox13.MaxLength = 2;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(60, 21);
-            this.textBox13.TabIndex = 9;
-            this.textBox13.Text = "0";
+            this.heroBox12.Location = new System.Drawing.Point(289, 23);
+            this.heroBox12.MaxLength = 2;
+            this.heroBox12.Name = "heroBox12";
+            this.heroBox12.Size = new System.Drawing.Size(60, 21);
+            this.heroBox12.TabIndex = 9;
+            this.heroBox12.Text = "0";
             // 
-            // textBox14
+            // heroBox11
             // 
-            this.textBox14.Location = new System.Drawing.Point(170, 23);
-            this.textBox14.MaxLength = 2;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(60, 21);
-            this.textBox14.TabIndex = 8;
-            this.textBox14.Text = "0";
+            this.heroBox11.Location = new System.Drawing.Point(170, 23);
+            this.heroBox11.MaxLength = 2;
+            this.heroBox11.Name = "heroBox11";
+            this.heroBox11.Size = new System.Drawing.Size(60, 21);
+            this.heroBox11.TabIndex = 8;
+            this.heroBox11.Text = "0";
             // 
-            // checkBox3
+            // therionCheck2
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(355, 62);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(36, 16);
-            this.checkBox3.TabIndex = 1;
-            this.checkBox3.Text = "极";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.therionCheck2.AutoSize = true;
+            this.therionCheck2.Location = new System.Drawing.Point(355, 62);
+            this.therionCheck2.Name = "therionCheck2";
+            this.therionCheck2.Size = new System.Drawing.Size(36, 16);
+            this.therionCheck2.TabIndex = 1;
+            this.therionCheck2.Text = "极";
+            this.therionCheck2.UseVisualStyleBackColor = true;
+            this.therionCheck2.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
-            // textBox15
+            // heroBox10
             // 
-            this.textBox15.Location = new System.Drawing.Point(53, 23);
-            this.textBox15.MaxLength = 2;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(60, 21);
-            this.textBox15.TabIndex = 7;
-            this.textBox15.Text = "0";
+            this.heroBox10.Location = new System.Drawing.Point(53, 23);
+            this.heroBox10.MaxLength = 2;
+            this.heroBox10.Name = "heroBox10";
+            this.heroBox10.Size = new System.Drawing.Size(60, 21);
+            this.heroBox10.TabIndex = 7;
+            this.heroBox10.Text = "0";
             // 
             // label13
             // 
@@ -561,34 +577,31 @@ namespace IslandTool
             this.label18.TabIndex = 1;
             this.label18.Text = "圣兽";
             // 
-            // comboBox3
+            // therionBox2
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.therionBox2.FormattingEnabled = true;
+            this.therionBox2.Items.AddRange(new object[] {
             "青龙",
             "朱雀",
             "玄武",
             "白虎"});
-            this.comboBox3.Location = new System.Drawing.Point(289, 60);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(60, 20);
-            this.comboBox3.TabIndex = 0;
+            this.therionBox2.Location = new System.Drawing.Point(289, 60);
+            this.therionBox2.Name = "therionBox2";
+            this.therionBox2.Size = new System.Drawing.Size(60, 20);
+            this.therionBox2.TabIndex = 0;
+            this.therionBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.textBox16);
-            this.groupBox5.Controls.Add(this.textBox17);
-            this.groupBox5.Controls.Add(this.textBox18);
-            this.groupBox5.Controls.Add(this.textBox19);
-            this.groupBox5.Controls.Add(this.checkBox4);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.label19);
-            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Controls.Add(this.heroBox17);
+            this.groupBox5.Controls.Add(this.heroBox16);
+            this.groupBox5.Controls.Add(this.therionCheck3);
+            this.groupBox5.Controls.Add(this.heroBox15);
             this.groupBox5.Controls.Add(this.label21);
             this.groupBox5.Controls.Add(this.label22);
             this.groupBox5.Controls.Add(this.label23);
             this.groupBox5.Controls.Add(this.label24);
-            this.groupBox5.Controls.Add(this.comboBox4);
+            this.groupBox5.Controls.Add(this.therionBox3);
             this.groupBox5.Location = new System.Drawing.Point(12, 318);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(402, 96);
@@ -596,78 +609,43 @@ namespace IslandTool
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "四队";
             // 
-            // textBox16
+            // heroBox17
             // 
-            this.textBox16.Location = new System.Drawing.Point(170, 57);
-            this.textBox16.MaxLength = 2;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(60, 21);
-            this.textBox16.TabIndex = 11;
-            this.textBox16.Text = "0";
+            this.heroBox17.Location = new System.Drawing.Point(289, 23);
+            this.heroBox17.MaxLength = 2;
+            this.heroBox17.Name = "heroBox17";
+            this.heroBox17.Size = new System.Drawing.Size(60, 21);
+            this.heroBox17.TabIndex = 9;
+            this.heroBox17.Text = "0";
             // 
-            // textBox17
+            // heroBox16
             // 
-            this.textBox17.Location = new System.Drawing.Point(53, 57);
-            this.textBox17.MaxLength = 2;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(60, 21);
-            this.textBox17.TabIndex = 10;
-            this.textBox17.Text = "0";
+            this.heroBox16.Location = new System.Drawing.Point(170, 23);
+            this.heroBox16.MaxLength = 2;
+            this.heroBox16.Name = "heroBox16";
+            this.heroBox16.Size = new System.Drawing.Size(60, 21);
+            this.heroBox16.TabIndex = 8;
+            this.heroBox16.Text = "0";
             // 
-            // textBox18
+            // therionCheck3
             // 
-            this.textBox18.Location = new System.Drawing.Point(289, 23);
-            this.textBox18.MaxLength = 2;
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(60, 21);
-            this.textBox18.TabIndex = 9;
-            this.textBox18.Text = "0";
+            this.therionCheck3.AutoSize = true;
+            this.therionCheck3.Location = new System.Drawing.Point(355, 62);
+            this.therionCheck3.Name = "therionCheck3";
+            this.therionCheck3.Size = new System.Drawing.Size(36, 16);
+            this.therionCheck3.TabIndex = 1;
+            this.therionCheck3.Text = "极";
+            this.therionCheck3.UseVisualStyleBackColor = true;
+            this.therionCheck3.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
-            // textBox19
+            // heroBox15
             // 
-            this.textBox19.Location = new System.Drawing.Point(170, 23);
-            this.textBox19.MaxLength = 2;
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(60, 21);
-            this.textBox19.TabIndex = 8;
-            this.textBox19.Text = "0";
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(355, 62);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(36, 16);
-            this.checkBox4.TabIndex = 1;
-            this.checkBox4.Text = "极";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(53, 23);
-            this.textBox20.MaxLength = 2;
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(60, 21);
-            this.textBox20.TabIndex = 7;
-            this.textBox20.Text = "0";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(129, 60);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(35, 12);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "武将5";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(12, 60);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(35, 12);
-            this.label20.TabIndex = 5;
-            this.label20.Text = "武将4";
+            this.heroBox15.Location = new System.Drawing.Point(53, 23);
+            this.heroBox15.MaxLength = 2;
+            this.heroBox15.Name = "heroBox15";
+            this.heroBox15.Size = new System.Drawing.Size(60, 21);
+            this.heroBox15.TabIndex = 7;
+            this.heroBox15.Text = "0";
             // 
             // label21
             // 
@@ -705,25 +683,26 @@ namespace IslandTool
             this.label24.TabIndex = 1;
             this.label24.Text = "圣兽";
             // 
-            // comboBox4
+            // therionBox3
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.therionBox3.FormattingEnabled = true;
+            this.therionBox3.Items.AddRange(new object[] {
             "青龙",
             "朱雀",
             "玄武",
             "白虎"});
-            this.comboBox4.Location = new System.Drawing.Point(289, 60);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(60, 20);
-            this.comboBox4.TabIndex = 0;
+            this.therionBox3.Location = new System.Drawing.Point(289, 60);
+            this.therionBox3.Name = "therionBox3";
+            this.therionBox3.Size = new System.Drawing.Size(60, 20);
+            this.therionBox3.TabIndex = 0;
+            this.therionBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.listBox1);
-            this.groupBox6.Location = new System.Drawing.Point(420, 12);
+            this.groupBox6.Location = new System.Drawing.Point(420, 50);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(222, 669);
+            this.groupBox6.Size = new System.Drawing.Size(616, 631);
             this.groupBox6.TabIndex = 14;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "模拟结果";
@@ -734,14 +713,25 @@ namespace IslandTool
             this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(6, 20);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(210, 640);
+            this.listBox1.Size = new System.Drawing.Size(604, 604);
             this.listBox1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(420, 21);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "模拟";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 689);
+            this.ClientSize = new System.Drawing.Size(1048, 689);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -772,67 +762,65 @@ namespace IslandTool
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox heroBox0;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ComboBox therionBox0;
+        private System.Windows.Forms.TextBox heroBox4;
+        private System.Windows.Forms.TextBox heroBox3;
+        private System.Windows.Forms.TextBox heroBox2;
+        private System.Windows.Forms.TextBox heroBox1;
+        private System.Windows.Forms.CheckBox therionCheck0;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox heroBox9;
+        private System.Windows.Forms.TextBox heroBox8;
+        private System.Windows.Forms.TextBox heroBox7;
+        private System.Windows.Forms.TextBox heroBox6;
+        private System.Windows.Forms.CheckBox therionCheck1;
+        private System.Windows.Forms.TextBox heroBox5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox therionBox1;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox heroBox14;
+        private System.Windows.Forms.TextBox heroBox13;
+        private System.Windows.Forms.TextBox heroBox12;
+        private System.Windows.Forms.TextBox heroBox11;
+        private System.Windows.Forms.CheckBox therionCheck2;
+        private System.Windows.Forms.TextBox heroBox10;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox therionBox2;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox heroBox17;
+        private System.Windows.Forms.TextBox heroBox16;
+        private System.Windows.Forms.CheckBox therionCheck3;
+        private System.Windows.Forms.TextBox heroBox15;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox therionBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox mbox0;
-        private System.Windows.Forms.Label mlable0;
+        private System.Windows.Forms.Label mlabel0;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
