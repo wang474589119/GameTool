@@ -30,6 +30,11 @@ namespace IslandTool
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -38,12 +43,10 @@ namespace IslandTool
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.mbox0 = new System.Windows.Forms.TextBox();
+            this.mlable0 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -86,9 +89,6 @@ namespace IslandTool
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.mlable0 = new System.Windows.Forms.Label();
-            this.mbox0 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
@@ -120,6 +120,53 @@ namespace IslandTool
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "一队";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(170, 57);
+            this.textBox5.MaxLength = 2;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(60, 21);
+            this.textBox5.TabIndex = 11;
+            this.textBox5.Text = "0";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(53, 57);
+            this.textBox4.MaxLength = 2;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(60, 21);
+            this.textBox4.TabIndex = 10;
+            this.textBox4.Text = "0";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(289, 23);
+            this.textBox3.MaxLength = 2;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(60, 21);
+            this.textBox3.TabIndex = 9;
+            this.textBox3.Text = "0";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(170, 23);
+            this.textBox2.MaxLength = 2;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(60, 21);
+            this.textBox2.TabIndex = 8;
+            this.textBox2.Text = "0";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(355, 62);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(36, 16);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "极";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -199,52 +246,6 @@ namespace IslandTool
             this.comboBox1.Size = new System.Drawing.Size(60, 20);
             this.comboBox1.TabIndex = 0;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(355, 62);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(36, 16);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "极";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(170, 23);
-            this.textBox2.MaxLength = 2;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(60, 21);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "0";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(289, 23);
-            this.textBox3.MaxLength = 2;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(60, 21);
-            this.textBox3.TabIndex = 9;
-            this.textBox3.Text = "0";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(53, 57);
-            this.textBox4.MaxLength = 2;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(60, 21);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "0";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(170, 57);
-            this.textBox5.MaxLength = 2;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(60, 21);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "0";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button1);
@@ -256,6 +257,34 @@ namespace IslandTool
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "兵装";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 20);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(16, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "＋";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // mbox0
+            // 
+            this.mbox0.Location = new System.Drawing.Point(53, 43);
+            this.mbox0.MaxLength = 2;
+            this.mbox0.Name = "mbox0";
+            this.mbox0.Size = new System.Drawing.Size(23, 21);
+            this.mbox0.TabIndex = 8;
+            this.mbox0.Text = "0";
+            // 
+            // mlable0
+            // 
+            this.mlable0.AutoSize = true;
+            this.mlable0.Location = new System.Drawing.Point(6, 46);
+            this.mlable0.Name = "mlable0";
+            this.mlable0.Size = new System.Drawing.Size(35, 12);
+            this.mlable0.TabIndex = 0;
+            this.mlable0.Text = "顺序1";
             // 
             // groupBox3
             // 
@@ -688,34 +717,6 @@ namespace IslandTool
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(60, 20);
             this.comboBox4.TabIndex = 0;
-            // 
-            // mlable0
-            // 
-            this.mlable0.AutoSize = true;
-            this.mlable0.Location = new System.Drawing.Point(6, 46);
-            this.mlable0.Name = "mlable0";
-            this.mlable0.Size = new System.Drawing.Size(35, 12);
-            this.mlable0.TabIndex = 0;
-            this.mlable0.Text = "顺序1";
-            // 
-            // mbox0
-            // 
-            this.mbox0.Location = new System.Drawing.Point(53, 43);
-            this.mbox0.MaxLength = 2;
-            this.mbox0.Name = "mbox0";
-            this.mbox0.Size = new System.Drawing.Size(23, 21);
-            this.mbox0.TabIndex = 8;
-            this.mbox0.Text = "0";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(6, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(16, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "＋";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox6
             // 

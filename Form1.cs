@@ -68,5 +68,17 @@ namespace IslandTool
             }
             return count;
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            int iMax = 20;
+            if (textBox2.Text != null && textBox2.Text != "")
+            {
+                if (int.Parse(textBox2.Text) > iMax)
+                {
+                    textBox2.Text = iMax.ToString();
+                }
+            }
+        }
     }
 }
