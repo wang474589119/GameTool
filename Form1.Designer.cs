@@ -89,6 +89,8 @@ namespace IslandTool
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -162,6 +164,8 @@ namespace IslandTool
             // therionCheck0
             // 
             this.therionCheck0.AutoSize = true;
+            this.therionCheck0.Checked = true;
+            this.therionCheck0.CheckState = System.Windows.Forms.CheckState.Checked;
             this.therionCheck0.Location = new System.Drawing.Point(355, 62);
             this.therionCheck0.Name = "therionCheck0";
             this.therionCheck0.Size = new System.Drawing.Size(36, 16);
@@ -360,6 +364,8 @@ namespace IslandTool
             // therionCheck1
             // 
             this.therionCheck1.AutoSize = true;
+            this.therionCheck1.Checked = true;
+            this.therionCheck1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.therionCheck1.Location = new System.Drawing.Point(355, 62);
             this.therionCheck1.Name = "therionCheck1";
             this.therionCheck1.Size = new System.Drawing.Size(36, 16);
@@ -506,6 +512,8 @@ namespace IslandTool
             // therionCheck2
             // 
             this.therionCheck2.AutoSize = true;
+            this.therionCheck2.Checked = true;
+            this.therionCheck2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.therionCheck2.Location = new System.Drawing.Point(355, 62);
             this.therionCheck2.Name = "therionCheck2";
             this.therionCheck2.Size = new System.Drawing.Size(36, 16);
@@ -630,6 +638,8 @@ namespace IslandTool
             // therionCheck3
             // 
             this.therionCheck3.AutoSize = true;
+            this.therionCheck3.Checked = true;
+            this.therionCheck3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.therionCheck3.Location = new System.Drawing.Point(355, 62);
             this.therionCheck3.Name = "therionCheck3";
             this.therionCheck3.Size = new System.Drawing.Size(36, 16);
@@ -702,7 +712,7 @@ namespace IslandTool
             this.groupBox6.Controls.Add(this.listBox1);
             this.groupBox6.Location = new System.Drawing.Point(420, 50);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(616, 631);
+            this.groupBox6.Size = new System.Drawing.Size(693, 631);
             this.groupBox6.TabIndex = 14;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "模拟结果";
@@ -713,7 +723,7 @@ namespace IslandTool
             this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(6, 20);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(604, 604);
+            this.listBox1.Size = new System.Drawing.Size(681, 604);
             this.listBox1.TabIndex = 0;
             // 
             // button2
@@ -726,11 +736,35 @@ namespace IslandTool
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(593, 25);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(120, 16);
+            this.checkBox1.TabIndex = 16;
+            this.checkBox1.Text = "忽略朱雀灼烧伤害";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(501, 21);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 17;
+            this.button4.Text = "逆推最优解";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 689);
+            this.ClientSize = new System.Drawing.Size(1125, 689);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -756,6 +790,7 @@ namespace IslandTool
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -821,6 +856,8 @@ namespace IslandTool
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button4;
     }
 }
 

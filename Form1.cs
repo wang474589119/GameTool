@@ -17,10 +17,6 @@ namespace IslandTool
         private bool secondType = false;
         private bool thirdType = false;
         private bool fourthType = false;
-        private double firstBlood = 1f;
-        private double secondBlood = 1f;
-        private double thirdBlood = 1f;
-        private double fourthBlood = 1f;
         private List<int> heroList = new List<int>();
         private List<int> mechaList = new List<int>();
         private List<string> therionList = new List<string>();
@@ -141,6 +137,7 @@ namespace IslandTool
             int tortoise = 0;
             int redBird = 0;
             int mechaNum = 0;
+            bool bNew = true;
             listBox1.Items.Add("模拟开始");
             //50回合
             for (int i = 0; i < 50; i++)
@@ -160,24 +157,29 @@ namespace IslandTool
                 //我方回合
                 if (bOwn)
                 {
+                    if (bNew)
+                    {
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        bNew = false;
+                    }
                     //计算圣兽掉血
-                    if (therionList[ownTeam] == "朱雀·极" && redBird < 3)
+                    if (therionList[ownTeam] == "朱雀·极" && redBird < 3 && !checkBox1.Checked)
                     {
                         nowBlood *= 0.9f;
                         redBird++;
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam], msg: "灼烧第" + redBird + "回合");
                     }
                     else if (therionList[ownTeam] == "白虎·极" && !bWhiteTiger)
                     {
                         nowBlood *= 0.5f;
                         bWhiteTiger = true;
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam], msg: "减少当前血量50%");
                     }
                     else if (therionList[ownTeam] == "白虎" && !bWhiteTiger)
                     {
                         nowBlood *= 1f - 0.25f;
                         bWhiteTiger = true;
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam], msg: "减少当前血量25%");
                     }
                     //计算兵装掉血
                     if (mechaNum < mechaList.Count)
@@ -197,19 +199,116 @@ namespace IslandTool
                     if (therionList[ownTeam].Contains("青龙") && dragon == 0)
                     {
                         //青龙变相无敌1回合
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam], msg: "眩晕1回合");
                         dragon++;
                     }
                     else if (therionList[ownTeam].Contains("玄武") && tortoise == 0)
                     {
                         //玄武变相无敌1回合
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam], msg: "我方无敌1回合");
                         tortoise++;
                     }
                     else if (therionList[ownTeam].Contains("玄武·极") && tortoise < 2)
                     {
                         //玄武·极变相无敌1回合
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam]);
+                        tortoise++;
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, therion: therionList[ownTeam], msg: "我方无敌第" + tortoise + "回合");
+                    }
+                    else
+                    {
+                        //计算自爆掉血
+                        for (int j = 0 + 5 * ownTeam; j < 5 + 5 * ownTeam; j++)
+                        {
+                            if (j < heroList.Count)
+                            {
+                                if (heroList[j] >= 0)
+                                {
+                                    nowBlood *= (1 - (double)(heroList[j] + 15) / 100f);
+                                    count++;
+                                }
+                            }
+                        }
+                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, blow: count);
+                        ownTeam++;
+                        bNew = true;
+                    }
+                }
+                bOwn = !bOwn;
+            }
+            listBox1.Items.Add("模拟结束：敌方剩余血量：" + string.Format("{0:F}", (1f * (3 - enemyTeam) + nowBlood) * 100) + "%");
+        }
+        private double simulationAction()
+        {
+            int ownTeam = 0;
+            int enemyTeam = 0;
+            double nowBlood = 1f;
+            bool bOwn = true;
+            bool bWhiteTiger = false;
+            int dragon = 0;
+            int tortoise = 0;
+            int redBird = 0;
+            int mechaNum = 0;
+            bool bNew = true;
+            //50回合
+            for (int i = 0; i < 50; i++)
+            {
+                if (ownTeam > 2)
+                {
+                    break;
+                }
+                if (nowBlood <= 0)
+                {
+                    nowBlood = 1f;
+                    enemyTeam++;
+                    if (enemyTeam > 3)
+                        break;
+                }
+                //我方回合
+                if (bOwn)
+                {
+                    if (bNew)
+                    {
+                        bNew = false;
+                    }
+                    //计算圣兽掉血
+                    if (therionList[ownTeam] == "朱雀·极" && redBird < 3 && !checkBox1.Checked)
+                    {
+                        nowBlood *= 0.9f;
+                        redBird++;
+                    }
+                    else if (therionList[ownTeam] == "白虎·极" && !bWhiteTiger)
+                    {
+                        nowBlood *= 0.5f;
+                        bWhiteTiger = true;
+                    }
+                    else if (therionList[ownTeam] == "白虎" && !bWhiteTiger)
+                    {
+                        nowBlood *= 1f - 0.25f;
+                        bWhiteTiger = true;
+                    }
+                    //计算兵装掉血
+                    if (mechaNum < mechaList.Count)
+                    {
+                        nowBlood -= (double)mechaList[mechaNum] / 100f;
+                        mechaNum++;
+                    }
+                }
+                else
+                {
+                    int count = 0;
+                    if (therionList[ownTeam].Contains("青龙") && dragon == 0)
+                    {
+                        //青龙变相无敌1回合
+                        dragon++;
+                    }
+                    else if (therionList[ownTeam].Contains("玄武") && tortoise == 0)
+                    {
+                        //玄武变相无敌1回合
+                        tortoise++;
+                    }
+                    else if (therionList[ownTeam].Contains("玄武·极") && tortoise < 2)
+                    {
+                        //玄武·极变相无敌1回合
                         tortoise++;
                     }
                     else
@@ -219,20 +318,21 @@ namespace IslandTool
                         {
                             if (j < heroList.Count)
                             {
-                                if (heroList[j] > 0)
+                                if (heroList[j] >= 0)
                                 {
                                     nowBlood *= (1 - (double)(heroList[j] + 15) / 100f);
                                     count++;
                                 }
                             }
                         }
-                        writeLog(i + 1, bOwn, enemyTeam, ownTeam, nowBlood, blow: count);
                         ownTeam++;
+                        bNew = true;
                     }
                 }
                 bOwn = !bOwn;
             }
-            listBox1.Items.Add("模拟结束：敌方剩余血量：" + nowBlood * 100 + "%");
+            nowBlood = 1f * (3 - enemyTeam) + nowBlood;
+            return nowBlood;
         }
         private void writeLog(int round, bool bOwn, int enemyTeam, int ownTeam, double nowBlood, string therion = "", int mecha = 0, int blow = 0, string msg = "")
         {
@@ -250,7 +350,7 @@ namespace IslandTool
                 builder.Append("---自爆：{").Append(blow).Append("}个");
             if (!string.IsNullOrEmpty(msg))
                 builder.Append(msg);
-            builder.Append("---我方第[").Append(ownTeam + 1).Append("]队，敌方第[").Append(enemyTeam + 1).Append("]队，剩余血量：[").Append(nowBlood * 100).Append("%]");
+            builder.Append("---我方第[").Append(ownTeam + 1).Append("]队，敌方第[").Append(enemyTeam + 1).Append("]队，剩余血量：[").Append(string.Format("{0:F}", nowBlood * 100)).Append("%]");
             listBox1.Items.Add(builder.ToString());
         }
         private void getMechaList()
@@ -350,6 +450,19 @@ namespace IslandTool
             Label removeLabel = (Label)Controls.Find("mlabel" + (count - 1), true).First();
             groupBox2.Controls.Remove(removeTextBox);
             groupBox2.Controls.Remove(removeLabel);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //获取武将配置
+            getHeroList();
+            //获取圣兽配置
+            getTherionList();
+            //获取兵装配置
+            getMechaList();
+            List<string[]> therionListAll = PermutationAndCombination<string>.GetPermutation(therionList.ToArray());
+            List<int[]> mechaListAll = PermutationAndCombination<int>.GetPermutation(mechaList.ToArray());
+            List<int[]> heroListAll = PermutationAndCombination<int>.GetPermutation(heroList.ToArray());
         }
     }
 }
